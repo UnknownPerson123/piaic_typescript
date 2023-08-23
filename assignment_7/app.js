@@ -4,7 +4,9 @@
 const n = 100;
 let sum = 0;
 for (let i = 1; i <= n; i++) {
-    sum += i;
+    if (i % 2 == 0) {
+        sum += i;
+    }
 }
 console.log(sum);
 //  - Implement a program that uses a for loop to iterate through an array of numbers and print only the even numbers.
